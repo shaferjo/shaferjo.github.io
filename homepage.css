@@ -204,6 +204,11 @@ ul.contact-info > li {
   text-align: right;
 }
 
+.copyleft {
+  display:inline-block;
+  transform: rotateY(180deg);
+}
+
 
 /*******************************************************************************
  Animation
