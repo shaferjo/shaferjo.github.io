@@ -198,8 +198,8 @@ ul.contact-info > li {
 }
 
 .google-map {
-    width: 30%;
-    height: 30%;
+    max-width: 30%;
+    max-height: 30%;
     display: inline-block; 
 }
 
@@ -210,6 +210,10 @@ ul.contact-info > li {
   margin-top: 1vh;
   height: 2.3vh;
   text-align: right;
+}
+
+.footer a {
+    color: #292724;
 }
 
 .copyleft {
