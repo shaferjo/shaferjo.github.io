@@ -53,7 +53,7 @@ p.about, p.about>a {
 }
 
 p.about>a {
-    font-weight: 910;
+    font-weight: 900;
 }
 
 p.about>a:hover {
@@ -101,7 +101,7 @@ ol.publication-list > li {
 
 a.publication-title {
     font-size: 1.1em;
-    font-weight: 910;
+    font-weight: 900;
     color: black;
 }
 
@@ -150,7 +150,7 @@ ol.teaching-list > li {
 
 p.class-title {
     font-size: 1.1em;
-    font-weight: 910;
+    font-weight: 900;
     color: black;
 }
 
