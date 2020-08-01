@@ -123,6 +123,14 @@ a.publication-resource-link:hover {
     text-decoration: underline;
 }
 
+a.publication-resource-subdued-link {
+    color: #333;
+}
+
+a.publication-resource-subdued-link:hover {
+    color: #06547d;
+}
+
 /*******************************************************************************
  Teaching
 *******************************************************************************/
