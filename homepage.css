@@ -4,7 +4,7 @@
 
 body {
     font-family: Calibri, "Open Sans", sans-serif;
-    font-size: 2vmin; 
+    font-size: 2vmin;
 }
 
 h1:not(.my-name) {
@@ -84,6 +84,19 @@ svg.social-icon:hover {
 /*******************************************************************************
  Publications
 *******************************************************************************/
+
+h1.publications-title {
+    margin-bottom: 0vh;
+    padding-bottom: 1vh;
+}
+
+h2.publications-subtitle {
+    margin-top: -4vh;
+    margin-bottom: 2vh;
+    color: #f0f0f0;
+    font-family: Pacifico;
+    font-size: 4.5vmin;
+}
 
 ol.publication-list {
     list-style-type: decimal;
