@@ -87,12 +87,14 @@ svg.social-icon:hover {
 
 h1.publications-title {
     margin-bottom: 0vh;
-    padding-bottom: 1vh;
+    padding-bottom: 0vh;
+    line-height: 80%;
 }
 
 h2.publications-subtitle {
-    margin-top: -5vh;
-    padding-top: 1vh;
+    line-height: 80%;
+    margin-top: 0vh;
+    padding-top: 0vh;
     margin-bottom: 2vh;
     color: #f0f0f0;
     font-family: Pacifico;
@@ -105,7 +107,6 @@ ol.publication-list {
     margin-left: 7vw;
     margin-right: 3vw;
     font-size: 1.5em;
-    
 }
 
 ol.publication-list > li {
