@@ -88,11 +88,11 @@ svg.social-icon:hover {
 h1.publications-title {
     margin-bottom: 0vh;
     padding-bottom: 0vh;
-    line-height: 80%;
+    line-height: 82.5%;
 }
 
 h2.publications-subtitle {
-    line-height: 80%;
+    line-height: 82.5%;
     margin-top: 0vh;
     padding-top: 0vh;
     margin-bottom: 2vh;
@@ -223,7 +223,8 @@ ul.contact-info > li {
 .google-map {
     max-width: 30%;
     max-height: 30%;
-    display: inline-block; 
+    display: inline;
+    text-align: center;
 }
 
 .footer {
