@@ -114,7 +114,7 @@ ol.publication-list > li {
     margin-bottom: 2vh;
 }
 
-a.publication-title {
+a.publication-title, p.publication-title{
     font-size: 1.1em;
     font-weight: 900;
     color: black;
