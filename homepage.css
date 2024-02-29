@@ -45,7 +45,7 @@ p.about {
   margin-left: 12vw;
   margin-right: 12vw;
   line-height: 1.1em;
-  font-size: 2em;
+  font-size: 4vmin;
 }
 
 p.about, p.about>a {
