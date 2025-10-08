@@ -29,7 +29,7 @@ ul.resource-list {
 
 /* Fix: Reserve space for icons at bottom to prevent layout shift */
 #section-about {
-    padding-bottom: 60px; /* Reserve space for the animated icons */
+    padding-bottom: 70px; /* Reserve space for the animated icons */
     box-sizing: border-box;
 }
 
