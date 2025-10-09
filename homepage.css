@@ -156,6 +156,14 @@ a.publication-resource-subdued-link:hover {
     color: #06547d;
 }
 
+li.award {
+    list-style-type: "🟓 ";
+    font-size: 1.1em;
+    font-weight: 900;
+    color: #940606;
+    margin-left: 4px;
+}
+
 /*******************************************************************************
  Teaching
 *******************************************************************************/
