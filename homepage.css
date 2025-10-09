@@ -157,12 +157,19 @@ a.publication-resource-subdued-link:hover {
 }
 
 li.award {
-    list-style-type: "🟓 ";
     font-size: 1.1em;
     font-weight: 900;
     color: #940606;
     margin-left: 4px;
 }
+
+li.award::marker {
+    content: "🟓\2009";
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 900;
+    color: #940606;
+}
+
 
 /*******************************************************************************
  Teaching
