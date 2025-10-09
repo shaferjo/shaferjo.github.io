@@ -164,6 +164,10 @@ li.award {
     margin-left: 4px;
 }
 
+li.award::marker {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+}
+
 /*******************************************************************************
  Teaching
 *******************************************************************************/
