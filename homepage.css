@@ -18,8 +18,7 @@ ul.resource-list {
     position: relative;
     list-style: none;
     margin-left: 0;
-    padding-left: 1.2em;
-    list-style-type: " » ";
+    padding-left: 0;
 }
 
 
@@ -156,22 +155,32 @@ a.publication-resource-subdued-link:hover {
     color: #06547d;
 }
 
-li.award {
-    list-style: none;
+ul.resource-list li {
+    padding-left: 1em;
+}
+
+ul.resource-list li::before {
+    content: "»";
+    padding-right: 0.1em;
+}
+
+ul.resource-list li.award {
+    padding-left: 0.75em;
     font-size: 1.1em;
     font-weight: 900;
     color: #940606;
 }
 
-li.award::before {
-  content: "🟓";
-  font-family: "Noto Sans Symbols 2", sans-serif;
-  font-size: 0.9em;
-  font-weight: 900;
-  color: #940606;
-  position: absolute;
-  left: 0.2em;
-  top: 1.25em;
+ul.resource-list li.award::before {
+    content: "🟓";
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 0.9em;
+    font-weight: 900;
+    color: #940606;
+    width: 0.7em;
+    text-align: right;
+    margin-right: 0em;
+    display: inline-block;
 }
 
 /*******************************************************************************
