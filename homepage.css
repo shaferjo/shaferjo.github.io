@@ -220,6 +220,14 @@ p.teaching-position {
     font-style: italic;
 }
 
+a.class-details-subdued-link {
+    color: #1e1e1e;
+}
+
+a.class-details-subdued-link:hover {
+    color: #036ea6;
+}
+
 a.class-resource-link {
     color: #036ea6;
 }
